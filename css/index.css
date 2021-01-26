@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-	width: 75%;
+	width: 85%;
 	margin: 0 auto;
 }
 
@@ -40,7 +40,9 @@ body {
 }
 
 .nav {
-	background: rgba(105, 105, 105, 0.5);
+	background: rgba(53, 53, 53, 0.5);
+	position: fixed;
+	width: 100%;
 }
 
 .flex {
@@ -50,13 +52,39 @@ body {
 	gap: 1.5rem;
 }
 
-.mobile-navbar {
-	display: none;
+.navbar-icon {
+	position: relative;
+	left: 0;
+	transition: all 250ms ease-in-out;
+}
+
+.navbar-icon-move {
+	left: -10rem;
+}
+
+.navbar-items {
+	/* display: none; */
+	position: absolute;
+	flex-direction: column;
+	top: 0.5rem;
+	right: -20rem;
+	transition: right 300ms ease-in-out;
+    z-index: -1;
+    list-style: none;
+}
+
+.show {
+    right: 8rem;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* background-color: red; */
 }
 
 .greeting {
 	position: absolute;
-	top: 15rem;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	text-transform: uppercase;
 }
 

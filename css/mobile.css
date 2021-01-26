@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 	.container {
 		width: 90%;
 	}
@@ -77,7 +77,20 @@
 	.greeting {
 		top: 50%;
 		left: 50%;
-		transform: translate(-50%, 50%);
+		transform: translate(-50%, -50%);
 		text-align: center;
 	}
-} ;
+}; */
+
+@media (min-width: 768px) {
+	.navbar-icon {
+		display: none;
+	}
+
+	.navbar-items {
+        position: relative;
+		flex-direction: row;
+		top: 0  ;
+		right: 0;
+	}
+}
