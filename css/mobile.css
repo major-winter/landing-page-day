@@ -85,16 +85,14 @@
 @media (min-width: 768px) {
 	.navbar-icon {
 		display: none;
-	}
+    }
 
-	.navbar-items {
-		position: relative;
-		flex-direction: row;
-		top: 0;
-		right: 0;
-	}
+    .display-none{
+        display: inline;
+    }
+    
+    .navbar-items-lg {
+        list-style: none;
+    }
 
-	.navbar-items li {
-		margin-right: 2rem;
-	}
 }

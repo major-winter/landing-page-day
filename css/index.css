@@ -201,3 +201,7 @@ form {
 .mt-5 {
     margin-top: 5rem;
 }
+
+.display-none {
+    display: none;
+}
