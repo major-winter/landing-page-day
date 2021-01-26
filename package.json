@@ -1,0 +1,17 @@
+{
+	"name": "landing-page",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server.js -e html,css",
+		"css": "node-sass sass/main.scss css/index.css"
+	},
+	"author": "Jason",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"node-sass": "^5.0.0",
+		"nodemon": "^2.0.7"
+	}
+}
