@@ -4,8 +4,9 @@
 	"description": "",
 	"main": "server.js",
 	"scripts": {
-		"start": "nodemon server.js -e html,css",
-		"css": "node-sass sass/main.scss css/index.css"
+		"start:nodemon": "nodemon server.js -e html,css",
+		"css": "node-sass sass/main.scss css/index.css",
+		"start": "node server.js"
 	},
 	"author": "Jason",
 	"license": "ISC",
