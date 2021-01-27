@@ -114,6 +114,12 @@ img {
 	padding: 0.5rem 1rem;
 }
 
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
 .about__box {
 	display: flex;
 	flex-direction: column;
@@ -222,4 +228,9 @@ form {
 .socials ul li {
 	color: grey;
 	list-style: none;
+}
+
+.socials ul li:not(:last-child),
+.contact p:not(:last-child) {
+	margin-right: 0.5rem;
 }
