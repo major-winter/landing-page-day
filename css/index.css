@@ -35,6 +35,10 @@ body {
 	margin: 0 auto;
 }
 
+.container.flex {
+	height: 3rem;
+}
+
 .logo {
 	text-transform: uppercase;
 }
@@ -87,7 +91,7 @@ body {
 }
 
 .navbar-items-lg li:not(:last-child) {
-    margin-right: 1rem;
+	margin-right: 1rem;
 }
 
 .greeting {
@@ -203,11 +207,11 @@ form {
 }
 
 .mt-5 {
-    margin-top: 5rem;
+	margin-top: 5rem;
 }
 
 .display-none {
-    display: none;
+	display: none;
 }
 
 .red {
@@ -216,6 +220,6 @@ form {
 
 .contact p,
 .socials ul li {
-    color: grey;
-    list-style: none;
+	color: grey;
+	list-style: none;
 }

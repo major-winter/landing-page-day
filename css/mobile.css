@@ -83,6 +83,10 @@
 }; */
 
 @media (min-width: 768px) {
+	.nav {
+        /* top: 0; */
+        position: relative;
+	}
 	.navbar-icon {
 		display: none;
 	}
