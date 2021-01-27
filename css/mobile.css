@@ -85,14 +85,16 @@
 @media (min-width: 768px) {
 	.navbar-icon {
 		display: none;
-    }
+	}
+	.top {
+		display: inline;
+	}
 
-    .display-none{
-        display: inline;
-    }
-    
-    .navbar-items-lg {
-        list-style: none;
-    }
+	.display-none {
+		display: inline;
+	}
 
+	.navbar-items-lg {
+		list-style: none;
+	}
 }
