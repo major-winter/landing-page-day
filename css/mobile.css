@@ -84,14 +84,19 @@
 
 @media (min-width: 768px) {
 	.nav {
-        /* top: 0; */
-        position: relative;
+		/* top: 0; */
+		position: relative;
 	}
 	.navbar-icon {
 		display: none;
 	}
 	.top {
 		display: inline;
+	}
+
+	.p-fixed {
+		top: 0;
+		position: fixed;
 	}
 
 	.display-none {
