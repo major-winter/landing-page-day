@@ -1,0 +1,25 @@
+@media (min-width: $layout-breakpoint-medium) {
+	.nav {
+		/* top: 0; */
+		position: relative;
+	}
+	.navbar-icon {
+		display: none;
+	}
+	.top {
+		display: inline;
+	}
+
+	.p-fixed {
+		top: 0;
+		position: fixed;
+	}
+    
+	.display-none {
+		display: inline;
+	}
+
+	.navbar-items-lg {
+		list-style: none;
+	}
+}

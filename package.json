@@ -5,7 +5,8 @@
 	"main": "server.js",
 	"scripts": {
 		"start:nodemon": "nodemon server.js -e html,css",
-		"start": "node server.js"
+		"start": "node server.js",
+		"compile:css": "sass --watch sass/main.scss css/main.css"
 	},
 	"author": "Jason",
 	"license": "ISC",

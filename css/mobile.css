@@ -1,6 +1,8 @@
-
-
 @media (min-width: 768px) {
+	.container {
+		width: 75%;
+	}
+
 	.nav {
 		/* top: 0; */
 		position: relative;
@@ -21,7 +23,61 @@
 		display: inline;
 	}
 
+	.contact__box-mobile {
+		display: grid;
+
+		grid-template-areas:
+			'address address'
+			'email phone'
+			'map map'
+			'contact contact';
+		grid-template-columns: 50% 50%;
+	}
+
+	.address {
+		grid-area: address;
+	}
+
+	.email {
+		grid-area: email;
+		margin-right: 0.5rem;
+	}
+
+	.phone {
+		grid-area: phone;
+		margin-left: 0.5rem;
+	}
+
+	.map {
+		grid-area: map;
+	}
+
+	.form {
+		grid-area: contact;
+	}
+
+	/* .contact__box-item.email,
+	.contact__box-item.phone {
+	}
+
+	.contact__box-item.map,
+	.contact__box-item.address,
+	.contact__box-item.form {
+		grid-column-start: 1;
+		grid-column-end: 4;
+	} */
+
 	.navbar-items-lg {
 		list-style: none;
+	}
+
+	.footer-top.flex {
+		flex-direction: row;
+	}
+
+	.footer-top {
+		display: grid;
+		grid-template-columns: repeat(2, 1.5fr) 2fr;
+		align-items: flex-start;
 	}
 }
