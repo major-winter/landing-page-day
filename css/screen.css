@@ -1,0 +1,160 @@
+@media (min-width: 768px) {
+	.container {
+		/* width: 75%; */
+	}
+
+	.nav {
+		/* top: 0; */
+		position: relative;
+	}
+	.navbar-icon {
+		display: none;
+	}
+	.top {
+		display: inline;
+	}
+
+	.p-fixed {
+		top: 0;
+		position: fixed;
+	}
+
+	.display-none {
+		display: inline;
+	}
+
+	.contact__box-mobile {
+		display: grid;
+
+		grid-template-areas:
+			'address address'
+			'email phone'
+			'map map'
+			'contact contact';
+		grid-template-columns: 50% 50%;
+	}
+
+	.address {
+		grid-area: address;
+	}
+
+	.email {
+		grid-area: email;
+		margin-right: 0.5rem;
+	}
+
+	.phone {
+		grid-area: phone;
+		margin-left: 0.5rem;
+	}
+
+	.map {
+		grid-area: map;
+	}
+
+	.form {
+		grid-area: contact;
+	}
+
+	/* .contact__box-item.email,
+	.contact__box-item.phone {
+	}
+
+	.contact__box-item.map,
+	.contact__box-item.address,
+	.contact__box-item.form {
+		grid-column-start: 1;
+		grid-column-end: 4;
+	} */
+
+	.navbar-items-lg {
+		list-style: none;
+	}
+
+	.footer-top.flex {
+		flex-direction: row;
+	}
+
+	.footer-top {
+		display: grid;
+		grid-template-columns: repeat(2, 1.5fr) 2fr;
+		align-items: flex-start;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.about__content {
+		margin-top: 2rem;
+	}
+
+	.about__content.grid-half {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		align-items: center;
+	}
+
+	.about__content-text ul {
+		padding: 0;
+	}
+
+	.about__box.flex {
+		flex-direction: row;
+	}
+
+	.about__box-item {
+		padding: 0 1rem;
+	}
+
+	.services__box.grid-3-col {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		column-gap: 1.5rem;
+	}
+
+	.contact__box-mobile {
+		grid-template-columns: 50% 25% 25%;
+		grid-template-rows: auto;
+		column-gap: 1rem;
+		/* grid-template-areas:
+			'address email'
+			'map form'; */
+		grid-template-areas: none;
+	}
+
+	.address {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	.email {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+		margin-right: 0;
+	}
+
+	.phone {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: 2;
+		margin-left: 0;
+	}
+
+	.map {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+
+	.form {
+		grid-column-start: 2;
+		grid-column-end: 4;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+}
