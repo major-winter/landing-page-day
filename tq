@@ -1,0 +1,65 @@
+[33mcommit 752791b32d86ad595b64d2091ca0416575bd4d38[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mdev[m[33m)[m
+Author: major-winter <tuanhoangchu@outlook.com>
+Date:   Fri Jan 29 07:38:00 2021 +0700
+
+    init sass
+
+[33mcommit 2db54b2dc9e7350c2f299bb888ca4edb754d33ca[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: major-winter <tuanhoangchu@outlook.com>
+Date:   Fri Jan 29 04:24:56 2021 +0700
+
+    setup sass
+
+[33mcommit 95c80788e08e4d9de3d79a55b7215267feb0d61d[m[33m ([m[1;31mheroku/master[m[33m)[m
+Author: major-winter <tuanhoangchu@outlook.com>
+Date:   Thu Jan 28 18:57:47 2021 +0700
+
+    fix main navbar upon scrolling
+
+[33mcommit fc38cdd7c05036d7a4b479fe7e1503a8a1099447[m
+Author: major-winter <tuanhoangchu@outlook.com>
+Date:   Wed Jan 27 20:21:13 2021 +0700
+
+    update UI
+
+[33mcommit b3892ff35428dd4c8e13a5678ed50b21e09fcef0[m
+Author: major-winter <tuanhoangchu@outlook.com>
+Date:   Wed Jan 27 20:16:12 2021 +0700
+
+    update layout
+
+[33mcommit d21f74f914d8e516ca9854b7edece9795c22c076[m
+Author: major-winter <tuanhoangchu@outlook.com>
+Date:   Wed Jan 27 20:04:43 2021 +0700
+
+    update navbar list margin
+
+[33mcommit 83256d9e63ddcf198a60648a3970d8839a8276f6[m
+Author: major-winter <tuanhoangchu@outlook.com>
+Date:   Wed Jan 27 00:21:57 2021 +0700
+
+    update navbar
+
+[33mcommit 18898cc3c9a0a2a4a785d9c3a40d116749066043[m
+Author: major-winter <tuanhoangchu@outlook.com>
+Date:   Wed Jan 27 00:12:09 2021 +0700
+
+    update UI
+
+[33mcommit 3706ff1a901ae7c15db438a2b551b3412a5f07f2[m
+Author: major-winter <tuanhoangchu@outlook.com>
+Date:   Tue Jan 26 19:49:33 2021 +0700
+
+    add functionality to hamburger icon
+
+[33mcommit cf40156521d91d6e5e95ca39e61f789b7cfddda7[m
+Author: major-winter <tuanhoangchu@outlook.com>
+Date:   Tue Jan 26 18:27:04 2021 +0700
+
+    setup for heroku
+
+[33mcommit 00bb5e25696ffd22a91ef80618b985f8f65dae66[m
+Author: major-winter <tuanhoangchu@outlook.com>
+Date:   Tue Jan 26 18:08:36 2021 +0700
+
+    initial repo
